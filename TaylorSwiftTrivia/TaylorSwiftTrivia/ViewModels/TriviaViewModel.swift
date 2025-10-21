@@ -44,7 +44,7 @@ extension TriviaViewModel {
     static func lifeTrivia() -> TriviaViewModel {
         TriviaViewModel(questions: [
             Question(question: "What year was Taylor Swift born?", options: ["1989", "1990", "1988", "1991"], correctAnswer: "1989"),
-            Question(question: "What’s Taylor’s middle name?", options: ["Allison", "Marie", "Elizabeth", "Nicole"], correctAnswer: "Alison"),
+            Question(question: "What’s Taylor’s middle name?", options: ["Alison", "Marie", "Elizabeth", "Nicole"], correctAnswer: "Alison"),
             Question(question: "Which city was she born in?", options: ["Nashville", "Reading", "Memphis", "Dallas"], correctAnswer: "Reading")
         ])
     }

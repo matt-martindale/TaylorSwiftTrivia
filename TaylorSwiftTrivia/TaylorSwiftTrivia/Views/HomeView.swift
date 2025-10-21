@@ -56,7 +56,7 @@ struct HomeView: View {
         case .albumFolklore:
             ContentView(viewModel: TriviaViewModel.folkloreTrivia())
         case .songRanker:
-            SongRankView()
+            AlbumSelectionView() // ✅ new entry point
         }
     }
 }
